@@ -1,6 +1,7 @@
 package edu.macalester.comp124.breakout;
 
 import comp124graphics.GraphicsGroup;
+import comp124graphics.GraphicsObject;
 import comp124graphics.Rectangle;
 import java.awt.Color;
 
@@ -15,6 +16,9 @@ public class Brick extends GraphicsGroup {
         draw();
     }
 
+    /**
+     * Draws a single brick and adds it to the
+     */
     private void draw(){
         Rectangle brick = new Rectangle(xPos, yPos, 98, 20);
         brick.setFilled(true);
