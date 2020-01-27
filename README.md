@@ -1,3 +1,7 @@
+# Breakout
+#### This is a Breakout game in Java made as part of a course. The initial assignment description is below.
+
+<br><br><br><br><br><br>
 
 COMP 124 HW 4:  Breakout!
 ==========================
